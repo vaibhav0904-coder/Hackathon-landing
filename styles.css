@@ -1,0 +1,1025 @@
+@font-face {
+    font-family: Sophillia;
+    src: url("resources/Sophillia.woff");
+}
+
+.section {
+    color: white;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+html {
+    width: 100vw;
+    height: 100vh;
+    margin: 0px;
+    padding: 0px;
+    overflow-x: hidden ;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    overflow-x: ;
+
+}
+
+.test-wrap {
+    width: 100vw;
+    height: 100vh;
+    overflow-y: scroll;
+}
+
+
+/*  ------------------  landing start  ------------------  */
+
+.container {
+    width: 100%;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+}
+
+.landing {
+    width: 100%;
+    height: 100vh;
+    margin: 0;
+    padding: 0;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.landing-overlay {
+    width: 100vw;
+    height: 100vh;
+    margin: 0;
+    padding: 0;
+    background: linear-gradient(180deg, rgba(0, 0, 0, 0.1591) 0%, rgba(0, 0, 0, 0.43) 100%);
+}
+
+.heading {
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    left: 20%;
+    top: 250px;
+    z-index: 5;
+    opacity: 100%;
+    overflow: hidden;
+}
+
+.heading h1 {
+    position: relative;
+    left: 0%;
+    right: 0%;
+    top: 0%;
+    bottom: 0%;
+
+    font-family: Raleway;
+    font-style: normal;
+    font-weight: 800;
+    font-size: clamp(50px, 2vw, 105px);
+    line-height: 115px;
+    display: flex;
+    align-items: center;
+    z-index: 5;
+
+    color: #FFFFFF;
+}
+
+.heading h3 {
+    position: relative;
+    top: 0px;
+    left: 16%;
+
+    font-family: Raleway;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 25px;
+    line-height: 112.4%;
+    z-index: 5;
+
+    display: flex;
+    align-items: center;
+    letter-spacing: 0.05em;
+
+    color: #FFFFFF;
+}
+
+.landing-overlay {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.landing h1 {
+    position: relative;
+    left: 0%;
+    right: 0%;
+    top: 0%;
+    bottom: 0%;
+    width: 70%;
+
+    font-family: Raleway;
+    font-style: normal;
+    font-weight: 800;
+    font-size: clamp(30px, 4vw, 65px);
+    line-height: clamp(40px, 5vw, 80px);
+    display: flex;
+    align-items: center;
+    text-align: center;
+    letter-spacing: 1px;
+    z-index: 5;
+
+    /*background: linear-gradient(to right, #30b8d0 0%, #cdb439 100%);*/
+    /*-webkit-background-clip: text;*/
+    /*-webkit-text-fill-color: transparent;*/
+
+    color: #FFFFFF;
+}
+
+.landing h3 {
+    position: relative;
+    top: 40px;
+    left: 0;
+    width: 50%;
+
+    font-family: Raleway;
+    font-style: normal;
+    font-weight: 300;
+    font-size: clamp(18px, 2vw, 25px);
+    line-height: 112.4%;
+    z-index: 5;
+    text-align: center;
+
+    display: flex;
+    align-items: center;
+    letter-spacing: 0.05em;
+
+    color: #FFFFFF;
+}
+/*  ------------------  landing end  ------------------  */
+
+/*  ------------------  what why how start  ------------------  */
+
+.mission-vision{
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    background: black;
+    overflow: hidden;
+}
+
+.mission-box {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    position: relative;
+    left: 4%;
+
+    overflow: hidden;
+    padding: 0px 40px 10px;
+}
+
+.mission-box h1 {
+    position: relative;
+
+    font-family: Raleway;
+    font-style: normal;
+    font-weight: bold;
+    font-size: clamp(30px, 4vw, 65px);
+    line-height: clamp(40px, 5vw, 80px);
+    margin: 30px;
+
+    color: #FFFFFF;
+}
+
+.mission-heading h1{
+    font-family: Raleway;
+    font-style: normal;
+    font-weight: 800;
+    font-size: clamp(50px, 6vw, 95px);
+    line-height: clamp(60px, 7vw, 105px);
+    text-align: center;
+    z-index: 5;
+
+    color: #FFFFFF;
+}
+
+.mission-box p {
+    position: relative;
+    width: 90%;
+
+    font-family: Raleway;
+    font-style: normal;
+    font-weight: 300;
+    font-size: clamp(18px, 2.7vw, 27px);
+    line-height: clamp(25px, 3.2vw, 32px);
+    margin: 0px 30px 30px;
+    text-align: justify;
+    z-index: 3;
+
+    color: #feecee;
+}
+
+.mission-box a span{
+    position: relative;
+    font-family: Raleway;
+    font-style: normal;
+    font-weight: 300;
+    font-size: clamp(18px, 2.7vw, 27px);
+    line-height: clamp(25px, 3.2vw, 32px);
+    margin: 0px 30px 30px;
+    text-align: left;
+    text-decoration: none;
+    z-index: 5;
+
+    color: #feecee;
+}
+
+.mission-box a span::before {
+    content: "";
+    background-color: #ff6db7;
+    width: 0%;
+    height: 1em;
+    position: absolute;
+    z-index: -1;
+    filter: url(#marker-shape);
+    left: 0em;
+    top: 0.1em;
+    /*padding: 0 0.25em;*/
+
+    transition: width 1s;
+}
+
+.mission-box a span[data-scroll = "in"]::before {
+    content: "";
+    background-color: #ff6db7;
+    width: 100%;
+    height: 1em;
+    position: absolute;
+    z-index: -1;
+    filter: url(#marker-shape);
+    left: 0em;
+    top: 0.1em;
+    padding: 0 0.25em;
+}
+
+
+.mission-box a:hover {
+    text-decoration: none;
+}
+
+.mission-btn {
+    position: relative;
+    width: 50px;
+    height: 50px;
+
+    font-family: Raleway;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 20px;
+    line-height: 23px;
+    margin: 0px 30px 30px;
+
+    border-radius: 50%;
+}
+
+/*  ------------------  what why how end  ------------------  */
+
+/*  ------------------  services start  ------------------  */
+
+.service {
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    background: black;
+}
+
+.service-cont {
+    width: 100vw;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.service-cont:hover .card {
+    filter: blur(5px);
+    transform: scale(0.9);
+    opacity: 0.5;
+    transition: 0.4s;
+}
+
+.service-cont .card:hover {
+    filter: blur(0);
+    transform: scale(1);
+    opacity: 1;
+    transition: 0.4s;
+    overflow: hidden;
+}
+
+.services-heading {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+
+    position: relative;
+    z-index: 5;
+    opacity: 100%;
+}
+
+.services-heading h1 {
+    position: relative;
+
+    font-family: Raleway;
+    font-style: normal;
+    font-weight: 800;
+    font-size: clamp(50px, 6vw, 95px);
+    line-height: clamp(60px, 7vw, 105px);
+    margin: 60px 0 80px;
+    z-index: 5;
+
+    color: #FFFFFF;
+}
+
+/*  ------------------  Cards  ------------------  */
+
+.cards {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    overflow: hidden;
+}
+
+.card {
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    height: min(400px, 50vh);
+    width: min(500px, 85vw);
+    border-radius: 25px;
+    background-color: #ffffff;
+    box-shadow: 10px 0 50px rgba(0, 0, 0, 0.5);
+    overflow: hidden;
+}
+
+
+
+.card p span {
+    position: relative;
+}
+
+.card p span::before {
+    content: "";
+    background-color: #0f06d7;
+    width: 0%;
+    height: 1em;
+    position: absolute;
+    z-index: -1;
+    filter: url(#marker-shape);
+    left: 0em;
+    bottom: 0.1em;
+    /*padding: 0 0.25em;*/
+
+    transition: width 1s;
+}
+
+.card p span:hover::before {
+    width: 100%;
+}
+
+h2 {
+    position: absolute;
+    left: 0;
+    top: 0;
+    margin: 20px 0 0 20px;
+    font-family: Raleway;
+    font-style: normal;
+    font-weight: 800;
+    font-size: clamp(30px, 4vw, 65px);
+    line-height: clamp(40px, 5vw, 80px);
+    color: #ffffff;
+    mix-blend-mode: difference;
+}
+
+p {
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    margin: 0 20px 60px 20px;
+    color: #ffffff;
+    mix-blend-mode: difference;
+    font-family: Raleway;
+    font-style: normal;
+    font-weight: normal;
+    font-size: clamp(18px, 2.7vw, 20px);
+    line-height: clamp(20px, 3vw, 23px);
+    text-align: justify;
+}
+
+.circle {
+    height: 100%;
+    width: 100%;
+    border-radius: 50%;
+    background-color: #000000;
+    margin-top: -330px;
+    margin-left: 200px;
+}
+
+.triangle {
+    height: 100%;
+    width: 100%;
+    background-color: #000000;
+    border-radius: 20px;
+    transform: rotate(70deg);
+    margin-top: -430px;
+    margin-left: 200px;
+}
+
+.content a {
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    margin: 0 20px 20px 0;
+    cursor: pointer;
+    background-color: #000000;
+    color: #ffffff;
+    font-size: 28px;
+    padding: 5px 10px 5px 10px;
+    border-radius: 30px;
+    box-shadow: 10px 0 50px rgba(0, 0, 0, 0.5);
+}
+
+/*  ------------------  Cards  ------------------  */
+
+/*  ------------------  Services end  ------------------  */
+
+/*  ------------------  contact begins  ------------------  */
+
+.contact{
+    width: 100%;
+    margin: 0;
+    padding: 0;
+
+    background-image: url("./contact.JPG");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.contact-box {
+    position: relative;
+    top: 0;
+    left: 7%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 100vh;
+}
+
+.contact-heading {
+    display: flex;
+    flex-direction: row;
+    position: relative;
+    left: 15%;
+    top: 100px;
+    z-index: 5;
+    opacity: 100%;
+}
+
+.contact-box h1 {
+    position: relative;
+    left: 0%;
+    right: 0%;
+    top: 0%;
+    bottom: 0%;
+
+    font-family: Raleway;
+    font-style: normal;
+    font-weight: 800;
+    font-size: clamp(50px, 6vw, 95px);
+    line-height: clamp(60px, 7vw, 105px);
+    display: flex;
+    align-items: center;
+    z-index: 5;
+
+    color: #FFFFFF;
+}
+
+
+.contact-box p{
+    position: relative;
+    left: 0%;
+    right: 0%;
+    top: 0%;
+    bottom: 0%;
+
+    font-family: Raleway;
+    font-style: normal;
+    font-weight: 400;
+    font-size: clamp(24px, 4vw, 38px);
+    line-height: clamp(29px, 5vw, 50px);
+    text-align: left;
+    margin: 40px 0 40px;
+
+    z-index: 5;
+    mix-blend-mode: normal;
+
+    color: rgba(255, 255, 255);
+}
+
+.contact-box p a{
+    color: rgba(255, 255, 255);
+    text-decoration: none;
+}
+
+/*  ------------------  Contact end  ------------------  */
+
+
+/*  ------------------  Full screen nav begins  ------------------  */
+
+#nav-container {
+    position: fixed;
+    top: 9%;
+    right: 6%;
+
+    z-index: 6;
+}
+
+#nav-toggle {
+    display: block;
+    width: 32px;
+    height: 32px;
+    cursor: pointer;
+    transform: rotate(0deg);
+}
+
+#nav-toggle span {
+    background-color: black;
+    width: 100%;
+    height: 4px;
+    border-radius: 1px;
+    display: block;
+    position: absolute;
+    left: 0;
+    content: "";
+    transition: 0.5s ease-in-out;
+}
+
+#nav-toggle span:nth-child(1) {
+    top: 4px;
+    transform-origin: left center;
+}
+
+#nav-toggle span:nth-child(2) {
+    top: 14px;
+    transform-origin: left center;
+}
+
+#nav-toggle span:nth-child(3) {
+    top: 24px;
+    transform-origin: left center;
+}
+
+#nav-toggle.open span:nth-child(1) {
+    transform: rotate(45deg);
+    top: 3px;
+    left: 4px;
+}
+
+#nav-toggle.open span:nth-child(2) {
+    width: 0%;
+    opacity: 0;
+}
+
+#nav-toggle.open span:nth-child(3) {
+    transform: rotate(-45deg);
+    top: 25px;
+    left: 4px;
+}
+
+#nav-overlay {
+    position: absolute;
+    top: 16px;
+    left: 16px;
+    z-index: -1;
+    background: rgba(0, 0, 0, 0.8);
+    border-radius: 50%;
+    transition: 1s;
+    transform: scale3d(0, 0, 0);
+}
+
+#nav-overlay.open {
+    transform: scale3d(1, 1, 1);
+}
+
+#nav-fullscreen {
+    width: 100%;
+    position: fixed;
+    left: 0;
+    top: 0;
+    transition: ease-in-out 0.25s;
+    transition-delay: 0s;
+    visibility: hidden;
+    opacity: 0;
+}
+#nav-fullscreen ul {
+    list-style: none;
+}
+#nav-fullscreen a {
+    font-family: Raleway;
+    color: white;
+    text-decoration: none;
+}
+
+#nav-fullscreen.open {
+    visibility: visible;
+    opacity: 1;
+    transition: ease-in-out 0.5s;
+    transition-delay: 0.25s;
+}
+
+#nav-overlay {
+    background: linear-gradient(180deg, #673AB7 10%, #2a0845 90%);
+}
+
+#nav-toggle span {
+    background-color: white;
+}
+
+#nav-fullscreen {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    font-family: sans-serif;
+    font-size: 10vh;
+}
+
+#nav-fullscreen ul li a::after {
+    position: absolute;
+    bottom: -6px;
+    left: 0;
+    height: 3px;
+    width: 0;
+
+    content: "";
+    background: white;
+    transition: width 0.5s;
+}
+
+#nav-fullscreen ul li a:hover::after {
+    width: 100%;
+}
+
+#nav-fullscreen ul li a{
+    position: relative;
+}
+
+/*  ------------------  Full screen nav ends  ------------------  */
+
+
+/*  ------------------  Test begins  ------------------  */
+
+:root {
+    --delay: 0;
+    --duration: 800ms;
+    --iterations: 1;
+}
+
+.vaibhav {
+    height: 100vh;
+    width: 100vw;
+
+    background-image: url("./bg.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.vaibhav h1 {
+    position: relative;
+    left: 0%;
+    right: 0%;
+    top: 0%;
+    bottom: 0%;
+    width: 70%;
+
+    font-family: Raleway;
+    font-style: normal;
+    font-weight: 800;
+    font-size: clamp(30px, 4vw, 65px);
+    line-height: clamp(40px, 5vw, 80px);
+    letter-spacing: 1px;
+    text-align: center;
+
+    color: #FFFFFF;
+}
+
+.vaibhav h1 span {
+    font-family: Raleway;
+}
+
+.vaibhav h3 {
+    position: relative;
+    top: 40px;
+    left: 0;
+    width: 50%;
+
+    font-family: Raleway;
+    font-style: normal;
+    font-weight: 300;
+    font-size: clamp(18px, 2vw, 25px);
+    line-height: 112.4%;
+    z-index: 5;
+    text-align: center;
+
+    display: flex;
+    align-items: center;
+    letter-spacing: 0.05em;
+
+    color: #FFFFFF;
+
+    animation-name: text-fade;
+    animation: ease-in 1s;
+    animation-delay: 1.5s;
+}
+
+@keyframes text-fade {
+    0% {
+        color: transparent;
+    }
+    100% {
+        color: #FFFFFF;
+    }
+}
+
+.reveal-text,
+.reveal-text::after {
+    -webkit-animation-delay: var(--animation-delay, 2s);
+    animation-delay: var(--animation-delay, 2s);
+    -webkit-animation-iteration-count: var(--iterations, 1);
+    animation-iteration-count: var(--iterations, 1);
+    -webkit-animation-duration: var(--duration, 800ms);
+    animation-duration: var(--duration, 800ms);
+    -webkit-animation-fill-mode: both;
+    animation-fill-mode: both;
+    -webkit-animation-timing-function: cubic-bezier(0.0, 0.0, 0.2, 1);
+    animation-timing-function: cubic-bezier(0.0, 0.0, 0.2, 1);
+}
+
+.reveal-text {
+    --animation-delay: var(--delay, 0);
+    --animation-duration: var(--duration, 800ms);
+    --animation-iterations: var(--iterations, 1);
+    position: relative;
+    -webkit-animation-name: clip-text;
+    animation-name: clip-text;
+    color: #FFF;
+    white-space: nowrap;
+    cursor: default
+
+}
+
+.reveal-text-2 {
+    --animation-delay: 0.5s;
+    --animation-duration: var(--duration, 800ms);
+    --animation-iterations: var(--iterations, 1);
+    position: relative;
+    -webkit-animation-name: clip-text;
+    animation-name: clip-text;
+    color: #FFF;
+    white-space: nowrap;
+    cursor: default
+
+}
+
+.reveal-text-2,
+.reveal-text-2::after {
+    -webkit-animation-delay: var(--animation-delay, 2s);
+    animation-delay: var(--animation-delay, 2s);
+    -webkit-animation-iteration-count: var(--iterations, 1);
+    animation-iteration-count: var(--iterations, 1);
+    -webkit-animation-duration: var(--duration, 800ms);
+    animation-duration: var(--duration, 800ms);
+    -webkit-animation-fill-mode: both;
+    animation-fill-mode: both;
+    -webkit-animation-timing-function: cubic-bezier(0.0, 0.0, 0.2, 1);
+    animation-timing-function: cubic-bezier(0.0, 0.0, 0.2, 1);
+}
+
+.reveal-text-2::after {
+    content: "";
+    position: absolute;
+    z-index: 999;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: #f2f98b;
+    transform: scaleX(0);
+    transform-origin: 0 50%;
+    pointer-events: none;
+    -webkit-animation-name: text-revealer;
+    animation-name: text-revealer;
+}
+
+.reveal-text {
+    --animation-delay: var(--delay, 0);
+    --animation-duration: var(--duration, 800ms);
+    --animation-iterations: var(--iterations, 1);
+    position: relative;
+    -webkit-animation-name: clip-text;
+    animation-name: clip-text;
+    color: #FFF;
+    white-space: nowrap;
+    cursor: default
+
+}
+
+.reveal-text::after {
+    content: "";
+    position: absolute;
+    z-index: 999;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: #f2f98b;
+    transform: scaleX(0);
+    transform-origin: 0 50%;
+    pointer-events: none;
+    -webkit-animation-name: text-revealer;
+    animation-name: text-revealer;
+}
+
+
+@-webkit-keyframes clip-text {
+    from {
+        -webkit-clip-path: inset(0 100% 0 0);
+        clip-path: inset(0 100% 0 0);
+    }
+    to {
+        -webkit-clip-path: inset(0 0 0 0);
+        clip-path: inset(0 0 0 0);
+    }
+}
+
+
+@keyframes clip-text {
+    from {
+        -webkit-clip-path: inset(0 100% 0 0);
+        clip-path: inset(0 100% 0 0);
+    }
+    to {
+        -webkit-clip-path: inset(0 0 0 0);
+        clip-path: inset(0 0 0 0);
+    }
+}
+
+
+@-webkit-keyframes text-revealer {
+    0%, 50% {
+        transform-origin: 0 50%;
+    }
+    60%, 100% {
+        transform-origin: 100% 50%;
+    }
+    60% {
+        transform: scaleX(1);
+    }
+    100% {
+        transform: scaleX(0);
+    }
+}
+
+
+@keyframes text-revealer {
+    0%, 50% {
+        transform-origin: 0 50%;
+    }
+    60%, 100% {
+        transform-origin: 100% 50%;
+    }
+    60% {
+        transform: scaleX(1);
+    }
+    100% {
+        transform: scaleX(0);
+    }
+}
+.col-md-6,.col-md-12
+{
+    position: relative;
+    min-height: 1px;
+    padding-right: 15px;
+    padding-left: 15px;
+}
+@media (min-width: 992px) 
+{
+    .col-md-12,.col-md-6
+    {
+        float: left;
+    }
+    .col-md-12 {
+        width: 100%;
+      }
+      .col-md-6 {
+        width: 50%;
+      }
+      .col-md-pull-12 {
+        right: 100%;
+      }
+      .col-md-pull-6 {
+        right: 50%;
+      }
+      .col-md-push-12 {
+        left: 100%;
+      }
+      .col-md-push-6 {
+        left: 50%;
+      }
+      .col-md-offset-12 {
+        margin-left: 100%;
+      }
+      .col-md-offset-6 {
+        margin-left: 50%;
+      }
+}
+.row {
+    margin-right: -15px;
+    margin-left: -15px;
+  }
+  .row:before,
+  .row:after
+  {
+    display: table;
+    content: " ";
+  }
+  .row:after
+  {
+    clear: both;
+  }
+
+  .container {
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto;
+  }
+  @media (min-width: 768px) {
+    .container {
+      width: 750px;
+    }
+  }
+  @media (min-width: 992px) {
+    .container {
+      width: 970px;
+    }
+  }
+  @media (min-width: 1200px) {
+    .container {
+      width: 1170px;
+    }
+  }
+.container-fluid {
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto;
+}
+.container:before,
+.container:after,
+.container-fluid:before,
+.container-fluid:after
+{
+  display: table;
+  content: " ";
+}
+.container:after,
+.container-fluid:after
+{
+  clear: both;
+}
